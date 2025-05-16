@@ -114,7 +114,7 @@ int main() {
                                 printf("\nEstado atual da sala:\n");
                                 for (int i = 0; i < 30; i++) {
                                     for (int j = 0; j < 30; j++) {
-                                        if (matriz_salaAbool[i][j]) {
+                                        if (matriz_salaAbool[i][j] == true) {
                                             // disponivel verde
                                             SetConsoleTextAttribute(hConsole, FOREGROUND_GREEN | FOREGROUND_INTENSITY);
                                             printf("%3d ", matriz_salaA[i][j]);
